@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direktori Profil Kelas X RPL 1</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 20px;
+            color: #2c3e50;
+            margin: 0;
+        }
+
+        .header p {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .info-table th,
+        .info-table td {
+            border: 1px solid #b0c4de;
+            padding: 8px 12px;
+            font-size: 13px;
+            text-align: left;
+        }
+
+        .info-table th {
+            width: 25%;
+            background-color: #f0f4f8;
+        }
+
+        .member-list {
+            margin-bottom: 30px;
+            font-size: 13px;
+        }
+
+        .member-list ol {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+
+        .member-list a,
+        .back-to-top a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .member-list a:hover,
+        .back-to-top a:hover {
+            text-decoration: underline;
+        }
+
+        .role {
+            color: #666;
+            font-size: 12px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 25px 0;
+        }
+
+        .profile-card {
+            border: 1px solid #b0c4de;
+            margin-bottom: 25px;
+            background: #fff;
+        }
+
+        .profile-header {
+            background-color: #f0f4f8;
+            padding: 8px 12px;
+            font-size: 13px;
+            font-weight: bold;
+            border-bottom: 1px solid #b0c4de;
+        }
+
+        .profile-body {
+            display: flex;
+            padding: 15px;
+        }
+
+        .profile-left {
+            width: 35%;
+            text-align: center;
+            border-right: 1px solid #b0c4de;
+            padding-right: 15px;
+            box-sizing: border-box;
+        }
+
+        .foto-box {
+            width: 130px;
+            height: 160px;
+            background-color: #dcdcdc;
+            border: 1px solid #999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 10px;
+            color: #555;
+            font-size: 12px;
+        }
+
+        .audio-section {
+            font-size: 11px;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .audio-section audio {
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        .profile-right {
+            width: 65%;
+            padding-left: 15px;
+            font-size: 13px;
+            box-sizing: border-box;
+        }
+
+        .profile-right ul {
+            padding-left: 15px;
+            margin: 0 0 15px;
+        }
+
+        .profile-right li {
+            margin-bottom: 6px;
+        }
+
+        .link-riwayat {
+            font-size: 12px;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+        .link-riwayat:hover {
+            color: #0066cc;
+        }
+
+        details {
+            font-size: 12px;
+            margin-top: 12px;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .back-to-top {
+            text-align: right;
+            font-size: 12px;
+            margin: 5px 10px 10px 0;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 12px;
+            }
+
+            .profile-body {
+                flex-direction: column;
+            }
+
+            .profile-left,
+            .profile-right {
+                width: 100%;
+            }
+
+            .profile-left {
+                border-right: none;
+                border-bottom: 1px solid #b0c4de;
+                padding: 0 0 15px;
+            }
+
+            .profile-right {
+                padding: 15px 0 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container" id="atas">
+
+    <!-- HEADER -->
+    <div class="header">
+        <h1>🎓 DIREKTORI PROFIL KELAS X RPL 1</h1>
+        <p>
+            Buku Angkatan Digital & Galeri Profil Siswa
+            Rekayasa Perangkat Lunak
+        </p>
+    </div>
+
+    <!-- INFORMASI KELAS -->
+    <div class="section-title">
+        📌 Informasi Umum Kelas
+    </div>
+
+    <table class="info-table">
+        <tr>
+            <th>Wali Kelas</th>
+            <td>BAPAK MOH. SOBIRIN, S.KOM.</td>
+        </tr>
+        <tr>
+            <th>Ketua Kelas</th>
+            <td>MUHAMMAD BILAL AKBAR</td>
+        </tr>
+        <tr>
+            <th>Jumlah Siswa</th>
+            <td>36 Siswa</td>
+        </tr>
+        <tr>
+            <th>Slogan Kelas</th>
+            <td>"Code Your Dream, Build Your Future" 💻</td>
+        </tr>
+    </table>
+
+    <!-- DAFTAR ANGGOTA -->
+    <div class="section-title">
+        📋 Daftar Anggota Kelas:
+    </div>
+
+    <div class="member-list">
+        <ol>
+            <li>
+                <a href="#Putri">Gesti Anggraini</a>
+                <span class="role">(Wakil Ketua Kelas)</span>
+            </li>
+            <li>
+                <a href="#Attar">Nikeisha Anindita</a>
+                <span class="role">(Anggota Kelas)</span>
+            </li>
+            <li>
+                <a href="#Azzah">Naisilatul Khumaira</a>
+                <span class="role">(Anggita Kelas)</span>
+            </li>
+            <li>
+                <a href="#Vina">Saida Aisyah</a>
+                <span class="role">(Anggota Kelas)</span>
+            </li>
+            <li>
+                <a href="#Ais">Nur Yasmin Arivina</a>
+                <span class="role">(Anggota Kelas)</span>
+            </li>
+        </ol>
+    </div>
+
+    <hr>
+
+    <!-- PROFIL Gesti Anggraini -->
+    <div class="profile-card" id="Gesty">
+
+        <div class="profile-header">
+            👤 PROFIL SISWA #01 - Gesti Anggraini
+        </div>
+
+        <div class="profile-body">
+
+            <div class="profile-left">
+                <div class="foto-box">foto gesti</div>
+
+                <div class="audio-section">
+                    <span>🎙️ Suara Perkenalan:</span>
+                    <audio controls>
+                        <source src="audio-Gesti.mp3" type="audio/mpeg">
+                        Browser Anda tidak mendukung elemen audio.
+                    </audio>
+                </div>
+            </div>
+
+            <div class="profile-right">
+                <ul>
+                    <li><strong>NISN:</strong>10</li>
+                    <li><strong>Tempat, Tgl lahir:</strong>Sidoarjo, 03/10/2010</li>
+                    <li><strong>Hobi:</strong>Menari</li>
+                    <li><strong>Cita-cita:</strong>polwan</li>
+                    <li><strong>Motto:</strong>Jadilah orang yang baik karena Allah menyukai orang-orang yang berbuat baik</li>
+                </ul>
+
+                <details>
+                    <summary>🏆 Lihat Riwayat & Keahlian</summary>
+                    <p>Isi riwayat dan keahlian siswa di sini.</p>
+                </details>
+            </div>
+
+        </div>
+
+        <div class="back-to-top">
+            <a href="#atas">⬆️ Kembali ke Atas</a>
+        </div>
+
+    </div>
+
+    <!-- PROFIL Nikeisha Anindita -->
+    <div class="profile-card" id="Keisha">
+
+        <div class="profile-header">
+            👤 PROFIL SISWA #02 - Nikeisha Anindita
+        </div>
+
+        <div class="profile-body">
+
+            <div class="profile-left">
+                <div class="foto-box"></div>
+
+                <div class="audio-section">
+                    <span>🎙️ Suara Perkenalan:</span>
+                    <audio controls>
+                        <source src="audio-Keisha.mp3" type="audio/mpeg">
+                        Browser Anda tidak mendukung elemen audio.
+                    </audio>
+                </div>
+            </div>
+
+            <div class="profile-right">
+                <ul>
+                    <li><strong>NISN:</strong>0119293954</li>
+                    <li><strong>Tempat, Tgl Lahir:</strong>Kutai Kartanegara, 03/05/2011</li>
+                    <li><strong>Hobi:</strong>Basket</li>
+                    <li><strong>Cita-cita:</strong>atlet</li>
+                    <li><strong>Motto:</strong>Kegagalan adalah tangga keberhasilan</li>
+                </ul>
+
+                <details>
+                    <summary>🏆 Lihat Riwayat & Keahlian</summary>
+                    <p>Isi riwayat dan keahlian siswa di sini.</p>
+                </details>
+            </div>
+
+        </div>
+
+        <div class="back-to-top">
+            <a href="#atas">⬆️ Kembali ke Atas</a>
+        </div>
+
+    </div>
+
+    <!-- Naisilatul Khumaira -->
+    <div class="profile-card" id="Naisila">
+
+        <div class="profile-header">
+            👤 PROFIL SISWA #03 - Naisilatul Khumaira
+        </div>
+
+        <div class="profile-body">
+
+            <div class="profile-left">
+                <div class="foto-box">Foto sila</div>
+            </div>
+
+            <div class="profile-right">
+                <ul>
+                    <li><strong>NISN:0109714817</strong></li>
+                    <li><strong>Tempat, Tgl Lahir:</strong>Pasuruan, 01/05/2010</li>
+                    <li><strong>Hobi:</strong>Bersepeda</li>
+                    <li><strong>Cita-cita:</strong>Pengusaha</li>
+                    <li><strong>Motto:</strong>Jadilah manusia jadi</li>
+                </ul>
+
+                <details>
+                    <summary>🏆 Lihat Riwayat & Keahlian</summary>
+                    <p>Isi riwayat dan keahlian siswa di sini.</p>
+                </details>
+            </div>
+
+        </div>
+
+        <div class="back-to-top">
+            <a href="#atas">⬆️ Kembali ke Atas</a>
+        </div>
+
+    </div>
+
+    <!-- Saida Aisyah-->
+    <div class="profile-card" id="Ais">
+
+        <div class="profile-header">
+            👤 PROFIL SISWA #04 - Saida Aisyah
+        </div>
+
+        <div class="profile-body">
+
+            <div class="profile-left">
+                <div class="foto-box">Foto Ais</div>
+            </div>
+
+            <div class="profile-right">
+                <ul>
+                    <li><strong>NISN:</strong>0106109844</li>
+                    <li><strong>Tempat, Tgl Lahir:</strong>Pasuruan, 09/07/2010</li>
+                    <li><strong>Hobi:</strong>Baca manhwa</li>
+                    <li><strong>Cita-cita:</strong>Berpetualang</li>
+                    <li><strong>Motto:</strong></li>
+                </ul>
+
+                <details>
+                    <summary>🏆 Lihat Riwayat & Keahlian</summary>
+                    <p>Isi riwayat dan keahlian siswa di sini.</p>
+                </details>
+            </div>
+
+        </div>
+
+        <div class="back-to-top">
+            <a href="#atas">⬆️ Kembali ke Atas</a>
+        </div>
+
+    </div>
+
+    <!-- PROFIL SAIDA AISYA -->
+    <div class="profile-card" id="Vina">
+
+        <div class="profile-header">
+            👤 PROFIL SISWA #05 - Nur Yasmin Arivina
+        </div>
+
+        <div class="profile-body">
+
+            <div class="profile-left">
+                <div class="foto-box">Foto Vina</div>
+            </div>
+
+            <div class="profile-right">
+                <ul>
+                    <li><strong>NISN:</strong>0101062621</li>
+                    <li><strong>Tempat, Tgl Lahir:</strong>Pasuruan, 21/05/2010</li>
+                    <li><strong>Hobi:</strong>Me Time</li>
+                    <li><strong>Cita-cita:</strong>Slow Living</li>
+                    <li><strong>Motto:</strong>Allah tidak membebani seseorang melainkan sesuai dengan kesanggupannya</li>
+                </ul>
+
+                <details>
+                    <summary>🏆 Lihat Riwayat & Keahlian</summary>
+                    <p>Isi riwayat dan keahlian siswa di sini.</p>
+                </details>
+            </div>
+
+        </div>
+
+        <div class="back-to-top">
+            <a href="#atas">⬆️ Kembali ke Atas</a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
